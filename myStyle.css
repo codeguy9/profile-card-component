@@ -1,0 +1,99 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body,html {
+    height:100%;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    position:relative;
+}
+
+.circle1{
+    position:absolute;
+    top:-300px;
+    left:-200px;
+    z-index: -1;
+    
+
+}
+
+.circle2 {
+    position:absolute;
+    right:-100px;
+    bottom:-500px;
+    z-index: -1;
+    
+}
+
+
+
+.main {
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+    
+}
+
+.main img {
+    width:20%
+}
+
+.white-section {
+    background: white;
+    width:20%;
+    text-align: center;
+    position: relative;
+}
+
+.white-section img {
+    border-radius: 50%;
+    border:3px solid white;
+    position:absolute;
+    top: -30px;
+    
+}
+
+.title {
+    padding-top: 50px;
+    font-size:18px;
+    padding-bottom:20px;
+    color:hsl(227, 10%, 46%)
+}
+
+.london-paragraph {
+    color: hsl(227, 10%, 46%);
+    padding-bottom: 30px;
+}
+
+hr {
+    color:hsl(0, 0%, 95%)
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding:30px 0;
+}
+
+.statistic {
+    color:hsl(227, 10%, 46%)
+}
+
+.statistic p {
+    padding-top: 7px;
+    font-size:12px;
+}
+
+.statistic span {
+    font-size: 18px;
+}
