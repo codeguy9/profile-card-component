@@ -14,6 +14,7 @@ body {
     background: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     position:relative;
+    overflow: hidden;
 }
 
 .circle1{
